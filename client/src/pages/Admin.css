@@ -1,0 +1,17 @@
+.admin-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.admin-form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.admin-form-col {
+    flex: 1;
+}
+
+.add-train-btn {
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.payment-summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.payment-total-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--primary);
+    border-top: 1px solid var(--border);
+    padding-top: 10px;
+}
+
+.payment-method-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.pay-btn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.passenger-form-row {
+    display: flex;
+    gap: 16px;
+}
+
+.passenger-form-col {
+    flex: 1;
+}

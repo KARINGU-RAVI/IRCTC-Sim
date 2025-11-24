@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@irctc.com",
+      "password": "admin",
+      "role": "admin",
+      "wallet": 0,
+      "savedPassengers": []
+    },
+    {
+      "id": 2,
+      "name": "Ravi",
+      "email": "ravi@test.com",
+      "password": "123",
+      "role": "user",
+      "wallet": 5000,
+      "savedPassengers": []
+    },
+    {
+      "id": 1763966184076,
+      "name": "ravi",
+      "email": "karinguravi37@gmail.com",
+      "password": "12345",
+      "role": "user",
+      "wallet": 10000,
+      "savedPassengers": []
+    }
+  ],
+  "trains": [
+    {
+      "id": 101,
+      "name": "Rajdhani Express",
+      "source": "New Delhi",
+      "destination": "Mumbai",
+      "departureTime": "16:00",
+      "arrivalTime": "08:30",
+      "classes": [
+        {
+          "type": "1A",
+          "price": 4000,
+          "seats": 20
+        },
+        {
+          "type": "2A",
+          "price": 2500,
+          "seats": 50
+        },
+        {
+          "type": "3A",
+          "price": 1800,
+          "seats": 100
+        }
+      ],
+      "days": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ]
+    },
+    {
+      "id": 102,
+      "name": "Shatabdi Express",
+      "source": "New Delhi",
+      "destination": "Lucknow",
+      "departureTime": "06:00",
+      "arrivalTime": "12:30",
+      "classes": [
+        {
+          "type": "CC",
+          "price": 1200,
+          "seats": 80
+        },
+        {
+          "type": "EC",
+          "price": 2000,
+          "seats": 40
+        }
+      ],
+      "days": [
+        "Mon",
+        "Wed",
+        "Fri"
+      ]
+    }
+  ],
+  "bookings": [],
+  "passengers": []
+}

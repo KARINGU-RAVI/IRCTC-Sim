@@ -1,0 +1,91 @@
+.search-results-header {
+    margin-bottom: 30px;
+}
+
+.search-subtitle {
+    color: var(--text-muted);
+}
+
+.train-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.train-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.4rem;
+    color: var(--primary);
+}
+
+.train-schedule {
+    display: flex;
+    gap: 30px;
+    color: var(--text-muted);
+}
+
+.schedule-time {
+    font-weight: bold;
+    color: var(--text);
+    font-size: 1.1rem;
+}
+
+.schedule-arrow {
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.train-days {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.classes-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.class-card {
+    background: var(--card-bg);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    min-width: 100px;
+    border: 1px solid var(--border);
+}
+
+.class-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.class-price {
+    color: var(--primary);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.class-availability {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.avail-green {
+    color: var(--success);
+}
+
+.avail-red {
+    color: var(--danger);
+}
+
+.book-btn-small {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 5px;
+}
